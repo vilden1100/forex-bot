@@ -56,5 +56,5 @@ def send_news():
         print(f"Error: {e}")
 
 
-if name == "main":
-    send_news()
+# اجرای مستقیم تابع
+send_news()
