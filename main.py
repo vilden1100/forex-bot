@@ -1,7 +1,7 @@
 import datetime
 import requests
 
-# اطلاعات ربات خود را بین " " قرار دهید
+# اطلاعات خود را بین " " قرار دهید
 BOT_TOKEN = "8963564577:AAE_2ajuS1UUmGlNjZWSp97eOsYnRnZO9YA"
 CHAT_ID = "8298401582"
 
@@ -56,6 +56,5 @@ def send_news():
         print(f"Error: {e}")
 
 
-# خط زیر اصلاح شد
 if name == "main":
     send_news()
